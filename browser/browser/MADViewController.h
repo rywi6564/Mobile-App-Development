@@ -13,4 +13,5 @@
 @property (weak, nonatomic) IBOutlet UIToolbar *toolbar;
 - (IBAction)bookmarkItemTapped:(id)sender;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
+
 @end

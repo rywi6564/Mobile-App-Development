@@ -94,10 +94,10 @@
 				8EBE7983180703F200657D0B /* MainStoryboard.storyboard */,
 				8EBE7991180710FF00657D0B /* Favorite.h */,
 				8EBE7992180710FF00657D0B /* Favorite.m */,
-				8EBE798E1807076600657D0B /* Scene2ViewController.h */,
-				8EBE798F1807076600657D0B /* Scene2ViewController.m */,
 				8EBE7986180703F200657D0B /* MADViewController.h */,
 				8EBE7987180703F200657D0B /* MADViewController.m */,
+				8EBE798E1807076600657D0B /* Scene2ViewController.h */,
+				8EBE798F1807076600657D0B /* Scene2ViewController.m */,
 				8EBE7972180703F200657D0B /* Supporting Files */,
 			);
 			path = favorites;

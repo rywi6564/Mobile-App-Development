@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Favorite.h"
 
 @interface MADViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *bookLabel;
 @property (weak, nonatomic) IBOutlet UILabel *authorLabel;
+@property (strong, nonatomic)Favorite *user;
 
 @end

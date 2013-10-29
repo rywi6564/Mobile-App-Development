@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Favorite.h"
 
-@interface Scene2ViewController : UIViewController
+@interface Scene2ViewController : UIViewController<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *userBook;
 @property (weak, nonatomic) IBOutlet UITextField *userAuthor;
+@property (strong, nonatomic) Favorite *userInfo;
 
 @end

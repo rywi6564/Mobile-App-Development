@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E068C791822ACE8006AA4A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E068C781822ACE8006AA4A4 /* UIKit.framework */; };
+		8E068C7B1822ACE8006AA4A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E068C7A1822ACE8006AA4A4 /* Foundation.framework */; };
+		8E068C7D1822ACE8006AA4A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E068C7C1822ACE8006AA4A4 /* CoreGraphics.framework */; };
+		8E068C831822ACE8006AA4A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E068C811822ACE8006AA4A4 /* InfoPlist.strings */; };
+		8E068C851822ACE8006AA4A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E068C841822ACE8006AA4A4 /* main.m */; };
+		8E068C891822ACE8006AA4A4 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E068C881822ACE8006AA4A4 /* MADAppDelegate.m */; };
+		8E068C8B1822ACE8006AA4A4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E068C8A1822ACE8006AA4A4 /* Default.png */; };
+		8E068C8D1822ACE8006AA4A4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E068C8C1822ACE8006AA4A4 /* Default@2x.png */; };
+		8E068C8F1822ACE8006AA4A4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E068C8E1822ACE8006AA4A4 /* Default-568h@2x.png */; };
+		8E068C921822ACE9006AA4A4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E068C901822ACE9006AA4A4 /* MainStoryboard.storyboard */; };
+		8E068C951822ACE9006AA4A4 /* MADMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E068C941822ACE9006AA4A4 /* MADMasterViewController.m */; };
+		8E068C981822ACE9006AA4A4 /* MADDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E068C971822ACE9006AA4A4 /* MADDetailViewController.m */; };
+		8E068C9F1822B16B006AA4A4 /* harrypotter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E068C9E1822B16B006AA4A4 /* harrypotter.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E068C751822ACE8006AA4A4 /* harrypotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = harrypotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E068C781822ACE8006AA4A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E068C7A1822ACE8006AA4A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E068C7C1822ACE8006AA4A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E068C801822ACE8006AA4A4 /* harrypotter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "harrypotter-Info.plist"; sourceTree = "<group>"; };
+		8E068C821822ACE8006AA4A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E068C841822ACE8006AA4A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E068C861822ACE8006AA4A4 /* harrypotter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "harrypotter-Prefix.pch"; sourceTree = "<group>"; };
+		8E068C871822ACE8006AA4A4 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		8E068C881822ACE8006AA4A4 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		8E068C8A1822ACE8006AA4A4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8E068C8C1822ACE8006AA4A4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8E068C8E1822ACE8006AA4A4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8E068C911822ACE9006AA4A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8E068C931822ACE9006AA4A4 /* MADMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADMasterViewController.h; sourceTree = "<group>"; };
+		8E068C941822ACE9006AA4A4 /* MADMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADMasterViewController.m; sourceTree = "<group>"; };
+		8E068C961822ACE9006AA4A4 /* MADDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADDetailViewController.h; sourceTree = "<group>"; };
+		8E068C971822ACE9006AA4A4 /* MADDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADDetailViewController.m; sourceTree = "<group>"; };
+		8E068C9E1822B16B006AA4A4 /* harrypotter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = harrypotter.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E068C721822ACE8006AA4A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E068C791822ACE8006AA4A4 /* UIKit.framework in Frameworks */,
+				8E068C7B1822ACE8006AA4A4 /* Foundation.framework in Frameworks */,
+				8E068C7D1822ACE8006AA4A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E068C6C1822ACE8006AA4A4 = {
+			isa = PBXGroup;
+			children = (
+				8E068C9E1822B16B006AA4A4 /* harrypotter.plist */,
+				8E068C7E1822ACE8006AA4A4 /* harrypotter */,
+				8E068C771822ACE8006AA4A4 /* Frameworks */,
+				8E068C761822ACE8006AA4A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E068C761822ACE8006AA4A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E068C751822ACE8006AA4A4 /* harrypotter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E068C771822ACE8006AA4A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E068C781822ACE8006AA4A4 /* UIKit.framework */,
+				8E068C7A1822ACE8006AA4A4 /* Foundation.framework */,
+				8E068C7C1822ACE8006AA4A4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E068C7E1822ACE8006AA4A4 /* harrypotter */ = {
+			isa = PBXGroup;
+			children = (
+				8E068C871822ACE8006AA4A4 /* MADAppDelegate.h */,
+				8E068C881822ACE8006AA4A4 /* MADAppDelegate.m */,
+				8E068C901822ACE9006AA4A4 /* MainStoryboard.storyboard */,
+				8E068C931822ACE9006AA4A4 /* MADMasterViewController.h */,
+				8E068C941822ACE9006AA4A4 /* MADMasterViewController.m */,
+				8E068C961822ACE9006AA4A4 /* MADDetailViewController.h */,
+				8E068C971822ACE9006AA4A4 /* MADDetailViewController.m */,
+				8E068C7F1822ACE8006AA4A4 /* Supporting Files */,
+			);
+			path = harrypotter;
+			sourceTree = "<group>";
+		};
+		8E068C7F1822ACE8006AA4A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E068C801822ACE8006AA4A4 /* harrypotter-Info.plist */,
+				8E068C811822ACE8006AA4A4 /* InfoPlist.strings */,
+				8E068C841822ACE8006AA4A4 /* main.m */,
+				8E068C861822ACE8006AA4A4 /* harrypotter-Prefix.pch */,
+				8E068C8A1822ACE8006AA4A4 /* Default.png */,
+				8E068C8C1822ACE8006AA4A4 /* Default@2x.png */,
+				8E068C8E1822ACE8006AA4A4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E068C741822ACE8006AA4A4 /* harrypotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E068C9B1822ACE9006AA4A4 /* Build configuration list for PBXNativeTarget "harrypotter" */;
+			buildPhases = (
+				8E068C711822ACE8006AA4A4 /* Sources */,
+				8E068C721822ACE8006AA4A4 /* Frameworks */,
+				8E068C731822ACE8006AA4A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = harrypotter;
+			productName = harrypotter;
+			productReference = 8E068C751822ACE8006AA4A4 /* harrypotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E068C6D1822ACE8006AA4A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ryan Wilding";
+			};
+			buildConfigurationList = 8E068C701822ACE8006AA4A4 /* Build configuration list for PBXProject "harrypotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E068C6C1822ACE8006AA4A4;
+			productRefGroup = 8E068C761822ACE8006AA4A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E068C741822ACE8006AA4A4 /* harrypotter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E068C731822ACE8006AA4A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E068C831822ACE8006AA4A4 /* InfoPlist.strings in Resources */,
+				8E068C8B1822ACE8006AA4A4 /* Default.png in Resources */,
+				8E068C8D1822ACE8006AA4A4 /* Default@2x.png in Resources */,
+				8E068C8F1822ACE8006AA4A4 /* Default-568h@2x.png in Resources */,
+				8E068C921822ACE9006AA4A4 /* MainStoryboard.storyboard in Resources */,
+				8E068C9F1822B16B006AA4A4 /* harrypotter.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E068C711822ACE8006AA4A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E068C851822ACE8006AA4A4 /* main.m in Sources */,
+				8E068C891822ACE8006AA4A4 /* MADAppDelegate.m in Sources */,
+				8E068C951822ACE9006AA4A4 /* MADMasterViewController.m in Sources */,
+				8E068C981822ACE9006AA4A4 /* MADDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E068C811822ACE8006AA4A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E068C821822ACE8006AA4A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E068C901822ACE9006AA4A4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E068C911822ACE9006AA4A4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E068C991822ACE9006AA4A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8E068C9A1822ACE9006AA4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E068C9C1822ACE9006AA4A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "harrypotter/harrypotter-Prefix.pch";
+				INFOPLIST_FILE = "harrypotter/harrypotter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E068C9D1822ACE9006AA4A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "harrypotter/harrypotter-Prefix.pch";
+				INFOPLIST_FILE = "harrypotter/harrypotter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E068C701822ACE8006AA4A4 /* Build configuration list for PBXProject "harrypotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E068C991822ACE9006AA4A4 /* Debug */,
+				8E068C9A1822ACE9006AA4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E068C9B1822ACE9006AA4A4 /* Build configuration list for PBXNativeTarget "harrypotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E068C9C1822ACE9006AA4A4 /* Debug */,
+				8E068C9D1822ACE9006AA4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E068C6D1822ACE8006AA4A4 /* Project object */;
+}

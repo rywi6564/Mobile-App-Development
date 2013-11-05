@@ -57,15 +57,11 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue
                 sender:(id)sender{
     if ([segue.identifier isEqualToString:@"countrysegue"]) {
-        DetailViewController
-        *countryViewController=segue.destinationViewController;
-        NSIndexPath *indexPath=[self.tableView
-                                indexPathForSelectedRow];
+        DetailViewController *countryViewController=segue.destinationViewController;
+        NSIndexPath *indexPath=[self.tableView indexPathForCell:sender];
         NSArray *rowData=[continentData allKeys]; //creates an array with all keys from our dictionary
-        countryViewController.title=[rowData
-                                     objectAtIndex:indexPath.row];
-        countryViewController.countryList=[continentData 
-                                           objectForKey:countryViewController.title]; 
+        countryViewController.title=[rowData objectAtIndex:indexPath.row];
+        countryViewController.countryList=[continentData objectForKey:countryViewController.title]; 
     } 
 }
 

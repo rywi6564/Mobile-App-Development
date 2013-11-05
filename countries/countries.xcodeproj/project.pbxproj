@@ -20,6 +20,8 @@
 		8E068C2C18197CAD006AA4A4 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E068C2B18197CAD006AA4A4 /* MADViewController.m */; };
 		8E068C3318197E52006AA4A4 /* continents.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E068C3218197E52006AA4A4 /* continents.plist */; };
 		8E068C3618197FEB006AA4A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E068C3518197FEB006AA4A4 /* DetailViewController.m */; };
+		8E068C39182008D9006AA4A4 /* CountryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E068C38182008D9006AA4A4 /* CountryViewController.m */; };
+		8E068C3C18201CDC006AA4A4 /* ContinentInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E068C3B18201CDC006AA4A4 /* ContinentInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,10 @@
 		8E068C3218197E52006AA4A4 /* continents.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = continents.plist; sourceTree = "<group>"; };
 		8E068C3418197FEB006AA4A4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		8E068C3518197FEB006AA4A4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8E068C37182008D9006AA4A4 /* CountryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryViewController.h; sourceTree = "<group>"; };
+		8E068C38182008D9006AA4A4 /* CountryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryViewController.m; sourceTree = "<group>"; };
+		8E068C3A18201CDC006AA4A4 /* ContinentInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinentInfoViewController.h; sourceTree = "<group>"; };
+		8E068C3B18201CDC006AA4A4 /* ContinentInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinentInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,10 +98,14 @@
 				8E068C1E18197CAD006AA4A4 /* MADAppDelegate.h */,
 				8E068C1F18197CAD006AA4A4 /* MADAppDelegate.m */,
 				8E068C2718197CAD006AA4A4 /* MainStoryboard.storyboard */,
+				8E068C37182008D9006AA4A4 /* CountryViewController.h */,
+				8E068C38182008D9006AA4A4 /* CountryViewController.m */,
 				8E068C3418197FEB006AA4A4 /* DetailViewController.h */,
 				8E068C3518197FEB006AA4A4 /* DetailViewController.m */,
 				8E068C2A18197CAD006AA4A4 /* MADViewController.h */,
 				8E068C2B18197CAD006AA4A4 /* MADViewController.m */,
+				8E068C3A18201CDC006AA4A4 /* ContinentInfoViewController.h */,
+				8E068C3B18201CDC006AA4A4 /* ContinentInfoViewController.m */,
 				8E068C1618197CAD006AA4A4 /* Supporting Files */,
 			);
 			path = countries;
@@ -187,6 +197,8 @@
 				8E068C2018197CAD006AA4A4 /* MADAppDelegate.m in Sources */,
 				8E068C2C18197CAD006AA4A4 /* MADViewController.m in Sources */,
 				8E068C3618197FEB006AA4A4 /* DetailViewController.m in Sources */,
+				8E068C39182008D9006AA4A4 /* CountryViewController.m in Sources */,
+				8E068C3C18201CDC006AA4A4 /* ContinentInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +321,7 @@
 				8E068C3118197CAD006AA4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "CountryViewController.h"
 
 @interface DetailViewController ()
 
@@ -29,7 +30,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.navigationItem.rightBarButtonItem=self.editButtonItem;
+    //self.navigationItem.rightBarButtonItem=self.editButtonItem;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -89,8 +90,9 @@
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 
-{       NSUInteger row=[indexPath row]; //gets the row being edited
+{NSUInteger row=[indexPath row]; //gets the row being edited
     if (editingStyle == UITableViewCellEditingStyleDelete) {
+        [_countryList removeObjectAtIndex: row];
         // Delete the row from the data source
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }   
@@ -111,6 +113,16 @@
     [_countryList insertObject:moveCountry atIndex:toRow]; //insert the country in the new row
 }
 
+- (IBAction)unwindCountry: (UIStoryboardSegue *)segue
+{
+    if([segue.identifier isEqualToString:@"doneSegue"]) {
+        CountryViewController *source=[segue sourceViewController];
+        if (source.addedCountry!=nil) {
+        [_countryList addObject:source.addedCountry];
+        [self.tableView reloadData];
+        }
+    }
+}
 
 
 // Override to support conditional rearranging of the table view.

@@ -8,6 +8,7 @@
 
 #import "MADViewController.h"
 #import "DetailViewController.h"
+#import "ContinentInfoViewController.h"
 
 @interface MADViewController (){
     NSMutableDictionary *continentData;
@@ -61,8 +62,20 @@
         NSIndexPath *indexPath=[self.tableView indexPathForCell:sender];
         NSArray *rowData=[continentData allKeys]; //creates an array with all keys from our dictionary
         countryViewController.title=[rowData objectAtIndex:indexPath.row];
-        countryViewController.countryList=[continentData objectForKey:countryViewController.title]; 
-    } 
+        countryViewController.countryList=[continentData objectForKey:countryViewController.title];
+        
+        
+    if ([segue.identifier isEqualToString:@"continentsegue"]) {
+            ContinentInfoViewController
+            *infoViewController=segue.destinationViewController;
+            NSIndexPath *indexPath=[self.tableView
+                                    indexPathForSelectedRow];
+            NSArray *rowData=[continentData allKeys];
+            infoViewController.name=[rowData
+                                     objectAtIndex:indexPath.row];
+            infoViewController.number=[NSString stringWithFormat:@"%d",
+                                       [[continentData objectForKey:infoViewController.name] count]]; 
+        }    }
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Majors</key>
+	<array>
+		<dict>
+			<key>major</key>
+			<string>Psychology</string>
+			<key>url</key>
+			<string>http://psych.colorado.edu/index.html</string>
+		</dict>
+		<dict>
+			<key>major</key>
+			<string>Integrative Physiology</string>
+			<key>url</key>
+			<string>http://www.colorado.edu/intphys/index.html</string>
+		</dict>
+		<dict>
+			<key>major</key>
+			<string>International Affairs</string>
+			<key>url</key>
+			<string>http://iafs.colorado.edu/</string>
+		</dict>
+		<dict>
+			<key>major</key>
+			<string>English</string>
+			<key>url</key>
+			<string>http://english.colorado.edu/</string>
+		</dict>
+		<dict>
+			<key>major</key>
+			<string>Molecular, Cellular, and Developmental Biology</string>
+			<key>url</key>
+			<string>http://mcdb.colorado.edu/</string>
+		</dict>
+		<dict>
+			<key>major</key>
+			<string>Environmental Studies</string>
+			<key>url</key>
+			<string>http://envs.colorado.edu/about/</string>
+		</dict>
+		<dict>
+			<key>major</key>
+			<string>Political Science</string>
+			<key>url</key>
+			<string>http://polsci.colorado.edu/</string>
+		</dict>
+		<dict>
+			<key>major</key>
+			<string>Economics</string>
+			<key>url</key>
+			<string>http://www.colorado.edu/econ/</string>
+		</dict>
+		<dict>
+			<key>major</key>
+			<string>Studio Arts</string>
+			<key>url</key>
+			<string>http://cuart.colorado.edu/programs/studio-art/</string>
+		</dict>
+		<dict>
+			<key>major</key>
+			<string>Finance</string>
+			<key>url</key>
+			<string>http://leeds.colorado.edu/finance#overview</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -12,6 +12,7 @@
 
 @property (copy,nonatomic) NSString *name;
 @property (copy, nonatomic) NSString *number;
-@property (weak, nonatomic) UILabel *continentName;
-@property (weak, nonatomic) UILabel *countryNumber;
+@property (weak, nonatomic) IBOutlet UILabel *continentName;
+@property (weak, nonatomic) IBOutlet UILabel *countryNumber;
+
 @end

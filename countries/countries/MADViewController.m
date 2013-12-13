@@ -64,7 +64,7 @@
         countryViewController.title=[rowData objectAtIndex:indexPath.row];
         countryViewController.countryList=[continentData objectForKey:countryViewController.title];
         
-        
+                
     if ([segue.identifier isEqualToString:@"continentsegue"]) {
             ContinentInfoViewController
             *infoViewController=segue.destinationViewController;

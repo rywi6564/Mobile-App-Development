@@ -12,6 +12,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UISlider *slider;
 @property (weak, nonatomic) IBOutlet UILabel *sliderLabel;
-- (IBAction)sliderMoved:(id)sender;
+- (IBAction)sliderMoved:(UISlider *)sender;
 
 @end

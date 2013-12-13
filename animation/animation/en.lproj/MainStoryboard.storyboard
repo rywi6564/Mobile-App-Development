@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="chickfila.jpg" id="zYN-CG-rka">
-                                <rect key="frame" x="95" y="82" width="130" height="130"/>
+                                <rect key="frame" x="99" y="142" width="122" height="119"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
@@ -58,7 +58,7 @@
         <class className="MADViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MADViewController.h"/>
             <relationships>
-                <relationship kind="action" name="sliderMoved:"/>
+                <relationship kind="action" name="sliderMoved:" candidateClass="UISlider"/>
                 <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="slider" candidateClass="UISlider"/>
                 <relationship kind="outlet" name="sliderLabel" candidateClass="UILabel"/>

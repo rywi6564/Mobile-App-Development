@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E49BF43185AEA4800815600 /* tennisball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E49BF42185AEA4800815600 /* tennisball.jpg */; };
 		8EE476BC1835386000C0E034 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE476BB1835386000C0E034 /* UIKit.framework */; };
 		8EE476BE1835386000C0E034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE476BD1835386000C0E034 /* Foundation.framework */; };
 		8EE476C01835386000C0E034 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE476BF1835386000C0E034 /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E49BF42185AEA4800815600 /* tennisball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennisball.jpg; sourceTree = "<group>"; };
 		8EE476B81835386000C0E034 /* animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE476BB1835386000C0E034 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8EE476BD1835386000C0E034 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +62,7 @@
 		8EE476AF1835386000C0E034 = {
 			isa = PBXGroup;
 			children = (
+				8E49BF42185AEA4800815600 /* tennisball.jpg */,
 				8EE476E01835402500C0E034 /* chickfila.jpg */,
 				8EE476DE1835398500C0E034 /* sandwhich.png */,
 				8EE476C11835386000C0E034 /* animation */,
@@ -172,6 +175,7 @@
 				8EE476D51835386000C0E034 /* MainStoryboard.storyboard in Resources */,
 				8EE476DF1835398500C0E034 /* sandwhich.png in Resources */,
 				8EE476E11835402500C0E034 /* chickfila.jpg in Resources */,
+				8E49BF43185AEA4800815600 /* tennisball.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +311,7 @@
 				8EE476DD1835386100C0E034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

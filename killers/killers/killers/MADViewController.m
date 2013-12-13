@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     _imageControl.selectedSegmentIndex = -1;
+
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

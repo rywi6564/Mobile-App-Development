@@ -29,20 +29,13 @@
 }
 
 - (IBAction)changeImage:(UISegmentedControl *)sender {
-    if (_imageControl.selectedSegmentIndex==0) {
-        _titleLabel.text=@"In 2004";
-        _lightningImage.image=[UIImage imageNamed:@"hotfuss.png"];
-    } else if (_imageControl.selectedSegmentIndex==1) {
-        _titleLabel.text=@"In 2012";
-        _lightningImage.image=[UIImage imageNamed:@"battleborn.png"];
-    }
+    [self updateImage];
+    [self updateCaps];
+    
 }
 - (IBAction)updateFont:(UISwitch *)sender {
-    if (_capitalizedSwitch.on) {
-        _titleLabel.text=[_titleLabel.text uppercaseString];
-    } else {
-        _titleLabel.text=[_titleLabel.text lowercaseString];
-    }
+     [self updateCaps];
+    
 }
 
 - (IBAction)changeFontSize:(UISlider *)sender {
@@ -54,5 +47,24 @@
     UIFont *newFont = [UIFont systemFontOfSize:sender.value];
     //apply the new font to the label
     _titleLabel.font=newFont;
+}
+
+-(void)updateImage{
+    if (_imageControl.selectedSegmentIndex==0) {
+        _titleLabel.text=@"In 2004";
+        _lightningImage.image=[UIImage imageNamed:@"hotfuss.png"];
+    } else if (_imageControl.selectedSegmentIndex==1) {
+        _titleLabel.text=@"In 2012";
+        _lightningImage.image=[UIImage imageNamed:@"battleborn.png"];
+    }
+    
+}
+
+-(void)updateCaps{
+    if (_capitalizedSwitch.on) {
+        _titleLabel.text=[_titleLabel.text uppercaseString];
+    } else {
+        _titleLabel.text=[_titleLabel.text lowercaseString];
+    }
 }
 @end

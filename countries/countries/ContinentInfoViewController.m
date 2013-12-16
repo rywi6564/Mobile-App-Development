@@ -35,6 +35,8 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
+    NSLog(@"name: %@", _name);
+    NSLog(@"num: %@", _number);
     _continentName.text=_name;
     _countryNumber.text=_number;
 }

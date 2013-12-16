@@ -66,6 +66,7 @@
     }
     
     if ([segue.identifier isEqualToString:@"continentsegue"]) {
+        NSLog(@"in prepare for seque");
             ContinentInfoViewController
             *infoViewController=segue.destinationViewController;
             NSIndexPath *indexPath=[self.tableView

@@ -63,8 +63,8 @@
         NSArray *rowData=[continentData allKeys]; //creates an array with all keys from our dictionary
         countryViewController.title=[rowData objectAtIndex:indexPath.row];
         countryViewController.countryList=[continentData objectForKey:countryViewController.title];
-        
-                
+    }
+    
     if ([segue.identifier isEqualToString:@"continentsegue"]) {
             ContinentInfoViewController
             *infoViewController=segue.destinationViewController;
@@ -75,7 +75,7 @@
                                      objectAtIndex:indexPath.row];
             infoViewController.number=[NSString stringWithFormat:@"%d",
                                        [[continentData objectForKey:infoViewController.name] count]]; 
-        }    }
+            }
 }
 
 - (void)didReceiveMemoryWarning
